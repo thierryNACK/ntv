@@ -1,0 +1,98 @@
+body{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+section{
+    
+    width: 100%;
+    /*border:1px solid #ccc;*/
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex:1;
+    flex-direction:row ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #9b2a86;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+background: linear-gradient(294deg, rgba(155, 42, 134, 1) 0%, rgba(199, 87, 175, 1) 32%, rgba(237, 91, 83, 1) 100%);
+}
+.logo{
+    margin-top: 150px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.logoimage{
+    width: 70%;
+    border-radius: 250px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.player{
+    display: flex;
+    flex: 1;
+     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+footer{
+    
+    display: flex;
+    flex:1;
+    flex-direction:row ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #9b2a86;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+background: linear-gradient(294deg, rgba(155, 42, 134, 1) 0%, rgba(199, 87, 175, 1) 32%, rgba(237, 91, 83, 1) 100%);
+
+}
+.logolg{
+    width: 100%;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+     justify-content: center;
+    align-items: center;
+    color: black;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.social{
+    width: 40%;
+    border-radius: 10px;
+}
+.basp{
+    width: 100%;
+   position :fixed;
+    bottom:1px;
+}
+ 

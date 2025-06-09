@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="/logo/icon.png">
+
+  
+
+    <title>Nisi FM</title>
+
+    <script src="https://cdn.tutorialjinni.com/hls.js/1.2.1/hls.min.js"></script>
+</head>
+<body>
+    <section class="mainContent">
+        <header>
+            <img src="" alt="" srcset="">
+             <a href="index.html"><h1>Radio</h1></a>
+             <a href="about.html"> A propos</a>
+        </header>
+
+        <div class="logo">
+            <img src="images/logo-xl.png" alt="" class="logoimage">
+        </div>
+
+
+        
+        <div class="player">
+         <!-- HTML5 Video Tag -->
+        <audio id="video" 
+                controls autoplay
+               src="https://live20.bozztv.com/akamaissh101/ssh101/alternativatv/playlist.m3u8">
+        </audio>
+        </div>
+        <div class="basp">
+        <footer>
+            <div><a href="https://www.tiktok.com/@mwalimugabrieltikiko?is_from_webapp=1&sender_device=pc"><img src="/images/tiktok.png"alt="" class="social">  </a></div>
+             <div><a href=""><img src="/images/facebook.png"alt="" class="social">  </a></div>
+              <div><a href=""><img src="/images/Instq.png"alt="" class="social">  </a></div>
+               <div><a href=""><img src="/images/youtube.png"alt="" class="social">  </a></div>
+             
+        </footer>
+        </div>
+
+    </section>
+    
+
+
+     <script>
+            if (Hls.isSupported()) {
+              var video = document.getElementById('video');
+              var hls = new Hls();
+              hls.loadSource(video.src);
+              hls.attachMedia(video);
+            }else{
+                alert("Cannot stream HLS, use another video source");
+            }
+        </script>
+</body>
+</html>

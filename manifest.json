@@ -1,0 +1,20 @@
+{
+    "name": "nissi FM",
+    "short_name":"ntv",
+    "start_url": ".",
+    "backgroud_color": "white",
+    "theme_color": "black",
+    "display": "standalone",
+    "icons":[
+        {
+            "src": "logo/icon.png",
+            "sizes": "192x192",
+            "type":"image/png"
+        },
+         {
+            "src": "logo/logo.png",
+            "sizes": "512x512",
+            "type":"image/png"
+        }
+    ]
+}
